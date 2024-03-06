@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f00;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+}
+
+.results {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #ccc; 
+}
+
+.answers {
+    padding: 70px;
+    line-height: 1.0; 
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    .results, .answers {
+        padding: 10px;
+    }
+}
